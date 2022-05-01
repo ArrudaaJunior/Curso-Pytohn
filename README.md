@@ -3,4 +3,4 @@
 
 Repositório criado para os meus estudos.
 
-Linha aficionada direto do site!
+Linha adicionada direto do site!
