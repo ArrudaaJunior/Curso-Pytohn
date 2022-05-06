@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bba8672-2eaa-48ee-b1c0-f33867066ae4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex021.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonExercicios/ex021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_teste/aula09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +45,8 @@
       <recent name="C:\Users\thais\OneDrive\Documentos\MeusProjetos\Curso-Pytohn\PythonExercicios" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex021">
-    <configuration name="ex017" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.aula09">
+    <configuration name="aula09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso-Pytohn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonExercicios" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_teste" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonExercicios/ex017.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_teste/aula09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula09" />
         <item itemvalue="Python.ex021" />
         <item itemvalue="Python.ex020" />
         <item itemvalue="Python.ex019" />
         <item itemvalue="Python.ex018" />
-        <item itemvalue="Python.ex017" />
       </list>
     </recent_temporary>
   </component>
