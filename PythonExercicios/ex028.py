@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-computador = randint(0, 5) # faz o sorteio entre o numero 0 e 5.
+computador = randint(0, 5) # Faz o sorteio entre o numero 0 e 5.
 print('-=-' * 19)
 print('Vou pensar em um número entre 0 e 5. Tente adivinhar...')
 print('-=-' * 19)
