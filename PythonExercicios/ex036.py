@@ -5,8 +5,8 @@ print('Bem vindo. \nEmpréstimo bancário do Arruda')
 print('='*35)
 
 
-casavalor = float(input('Digite o valor da casa: '))
-salario = float(input('Digite o seu salário: '))
+casavalor = float(input('Digite o valor da casa: R$ '))
+salario = float(input('Digite o seu salário: R$'))
 anos = int(input('Em quantos anos deseja pagar? '))
 
 print('\nProcessando...')
