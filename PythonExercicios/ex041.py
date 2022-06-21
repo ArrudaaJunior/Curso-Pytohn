@@ -1,18 +1,20 @@
+from datetime import date
 print('='*60)
 print(' Programa que determina a cadegoria dos atletas de natação')
 print('='*60)
 
-ano = int(input('Digite seu ano de nascimento: '))
-ano = 2022 - ano
-
-if ano <= 9:
+atual = date.today().year
+nasc = int(input('Digite seu ano de nascimento: '))
+idade = atual - nasc
+print('Idade do atelta: {}'.format(idade))
+if idade <= 9:
     print('Categoria: MIRIN')
-elif ano > 9 and ano <= 14:
+elif idade <= 14:
     print('Categoria: INFANTIL')
-elif ano > 14 and ano <= 19:
+elif idade <= 19:
     print('Categoria JUNIOR')
-elif ano > 19 and ano == 20:
+elif idade <= 25:
     print('Categoria: SÊNIOR')
-elif ano > 20:
+else:
     print('Categoria: MASTER')
 

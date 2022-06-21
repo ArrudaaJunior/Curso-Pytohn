@@ -1,19 +1,19 @@
 print('Programa de conversão de bases numériacas')
 
-num = int(input('\nDigite um numero inteiro: '))
+num = int(input('\nDigite um número inteiro: '))
 
-print('\nPara qual base você quer converter o número? \n1 - Binário \n2 - Octal \n3 - Hexadecimal')
+print('\nPara qual base você quer converter o número? \n[ 1 ] - Binário \n[ 2 ] - Octal \n[ 3 ] - Hexadecimal')
 base = int(input('Escolha entre os tres: '))
 
 if base == 1:
-    numb = num % 2
-    print('{} em Binario é : {}'.format(num, numb))
+    numb = bin(num)
+    print('{} em Binario é : {}'.format(num, numb[2:]))
 elif base == 2:
-    numo = num % 8
-    print('{} em Octal é: {}'.format(num, numo))
+    numo = oct(num)
+    print('{} em Octal é: {}'.format(num, numo[2:]))
 elif base == 3:
-    numh = num % 16
-    print('{} em hexadecimal é: {}'.format(num, numh))
+    numh = hex(num)
+    print('{} em hexadecimal é: {}'.format(num, numh[2:]))
 else:
     print('Você escolheu uma opção que não existe, tente novamente.')
 print('Obrigado, volte sempre!')

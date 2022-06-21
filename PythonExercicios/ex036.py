@@ -18,7 +18,7 @@ print('valor da prestação mensal: {:.2f}'.format(parcelamensal))
 print('\nProcessando...')
 time.sleep(2)
 
-if parcelamensal < salario * 0.3:
+if parcelamensal <= salario * 0.3:
     print('Emprestimo aprovado!')
 else:
     print('Desculpe, emprestimo negado.')
